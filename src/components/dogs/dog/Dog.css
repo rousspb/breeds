@@ -1,0 +1,46 @@
+.dog-card {
+  position: relative;
+}
+.dog-card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  border: 3px solid #d08f8f;
+}
+
+.dog-card img:hover {
+  opacity: 0.2;
+}
+
+.dog-card.no-hover img:hover {
+  opacity: 1;
+}
+
+.dog-card.no-hover img {
+  cursor: default;
+}
+
+.show-me {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  color: deeppink;
+}
+
+.pink {
+  color: deeppink;
+}
+
+.dog-details-header {
+  margin-bottom: 30px;
+}
+
+.cucum {
+  text-align: left;
+  margin-left: 80px;
+  display: block;
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dog Card should render a snapshot of Dog 1`] = `
+<Link
+  to="/dog/Bob"
+>
+  <div
+    className="dog-card"
+  >
+    <img
+      alt="Dog"
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+    />
+    
+  </div>
+</Link>
+`;
